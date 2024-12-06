@@ -581,19 +581,3 @@ section {
 
 
 
-#menu-icon {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    #menu-icon {
-        display: block;
-    }
-    .navbar {
-        display: none;
-        flex-direction: column;
-    }
-    .navbar.active {
-        display: flex;
-    }
-}
